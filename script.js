@@ -29,7 +29,7 @@ document.getElementById('predict-button').addEventListener('click', async () => 
             
             resultBox.innerHTML = `Prediction: <strong>${label}</strong>`;
             
-            if (label === 'SPAM') {
+            if (label.toLowerCase() === 'spam') {
                 resultBox.className = 'result spam';
             } else {
                 resultBox.className = 'result not-spam';
