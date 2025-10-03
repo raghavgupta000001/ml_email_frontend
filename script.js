@@ -1,5 +1,5 @@
 // REPLACE THIS WITH YOUR RENDER API URL
-const RENDER_API_URL = "https://spam-detector-api.onrender.com"; 
+const RENDER_API_URL = "https://ml-email-class.onrender.com"; 
 
 document.getElementById('predict-button').addEventListener('click', async () => {
     const textInput = document.getElementById('text-input').value;
